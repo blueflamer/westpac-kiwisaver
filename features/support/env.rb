@@ -17,6 +17,7 @@ puts '---'
 Capybara.configure do |config|
   config.default_driver = :selenium
   config.app_host   = 'http://www.westpac.co.nz'
+  config.default_max_wait_time = 10
 end
 
 # Register Firefox

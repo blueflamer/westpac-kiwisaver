@@ -6,6 +6,7 @@ gem 'capybara'
 gem 'webdrivers', '~> 4.0', require: false
 gem 'byebug'
 gem 'site_prism'
+gem 'rspec'
 
 
 
