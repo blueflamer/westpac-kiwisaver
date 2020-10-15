@@ -1,4 +1,6 @@
-Feature: As a Product Owner I want that while using the KiwiSaver Retirement Calculator all fields in the calculator have got the information icon present So that The user is able to get a clear understanding of what needs to be entered in the field.
+Feature: Provide User with correct information related to Calculator fields
+
+As a Product Owner I want that while using the KiwiSaver Retirement Calculator all fields in the calculator have got the information icon present So that The user is able to get a clear understanding of what needs to be entered in the field.
 
 Scenario: When the User Clicks on information icon besides Current age the message related to Current age is displayed. 
     Given I navigate to Westpac Home Page 

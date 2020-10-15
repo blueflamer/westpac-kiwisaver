@@ -25,11 +25,6 @@ Then('the {string} page loads') do |page|
     end
 end
 
-Then('I click on {string}') do |option|
-    if(option == 'Click here to get started.')then
-        @calculators_page.click_here_to_get_started_btn.click
-    end
-end
 
 Then('I click on information icon besides {string} field') do |string|
     expect(@calculator_page).to have_calculator
