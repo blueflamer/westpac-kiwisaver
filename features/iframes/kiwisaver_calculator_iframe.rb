@@ -3,10 +3,18 @@ class KiwiSaverCalculatorIFrame < SitePrism::Page
     element :current_age_help, :xpath, "//div[@help-id='CurrentAge']//p"
 
     element :current_age, :xpath, "//div[@label='Current age']//input"
-    element :employment, :xpath, "//div[@label='Employment status']//div[@class='control select-control  no-selection']"
 
     element :salary, :xpath, "//div[@label='Salary or wages per year (before tax)']//input"
     element :projected_value, :xpath, "//span[@class='result-value result-currency ng-binding']"
+
+    element :current_balance, :xpath, "//div[@label='Current KiwiSaver balance']//input"
+    element :voluntary_contributions, :xpath, "//div[@label='Voluntary contributions']//input"
+    element :savings_goal, :xpath, "//div[@label='Savings goal at retirement']//input"
+
+
+    element :employment, :xpath, "//div[@label='Employment status']//div[@class='control select-control  no-selection']"
+    element :frequency, :xpath, "//div[@label='Voluntary contributions']//div[@class='control select-control  no-selection']"
+
 
     
 
@@ -17,6 +25,10 @@ class KiwiSaverCalculatorIFrame < SitePrism::Page
 
     def select_employment(employment)
         page.find(:xpath, "//span[text()='#{employment}']//../parent::li")
+    end
+
+    def select_frequency(frequency)
+        page.find(:xpath, "//span[text()='#{frequency}']//../parent::li")
     end
 
 
