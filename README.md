@@ -72,7 +72,7 @@ Installation
 
 6. After successful clone, change to project directory:
     ```console
-    cd westpace-kiwisaver
+    cd westpac-kiwisaver
     ```
 
 7. Install all Ruby Gems via the following command:
@@ -103,4 +103,4 @@ Type the following to run **_Test User Story 2_**
 \
 Report
 ======
-Reports [story1.html, story2.html including any screenshots] will appear in the root of **_westpace-kiwisaver_** folder.
+Reports [story1.html, story2.html including any screenshots] will appear in the root of **_westpac-kiwisaver_** folder.
