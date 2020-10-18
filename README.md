@@ -77,6 +77,7 @@ Running a Scenario:
 
 Reporting:
 
+cucumber features/calculator_ui.feature -f pretty -f html -o report.html
 
 
 

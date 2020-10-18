@@ -12,6 +12,8 @@ browser_name = ENV['BROWSER'] || "chrome"
 puts '--- Test Environment Variables ---'
 puts 'Browser            ' + browser_name
 puts '---'
+puts 'Report Path: results'
+
 
 # Configure Capybara with defaults
 Capybara.configure do |config|
