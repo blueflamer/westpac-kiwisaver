@@ -9,5 +9,5 @@ Scenario: When the User Clicks on information icon besides Current age the messa
     And I click on "Click here to get started."
     Then the "KiwiSaver Retirement Calculator" page loads
     And I click on information icon besides "Current age" field
-    Then a message: "This calculator has an age limit of 64 years old as you need to be under the age of 65 to join KiwiSaver." is displayed below the "Current age" field
-    #Then a message: "This calculator has an age limit of 18 to 64 years old." is displayed below the "Current age" field
+    #Then a message: "This calculator has an age limit of 64 years old as you need to be under the age of 65 to join KiwiSaver." is displayed below the "Current age" field
+    Then a message: "This calculator has an age limit of 18 to 64 years old." is displayed below the "Current age" field
