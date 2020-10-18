@@ -20,7 +20,7 @@ class KiwiSaverCalculatorIFrame < SitePrism::Page
 
     #element :employed, :xpath, "//span[text()='Employed']//../parent::li"
     #element :notemployed, :xpath, "//span[text()='Not employed']//../parent::li"
-    #element :sefemployed, :xpath, "//span[text()='Self-employed']//../parent::li"
+    #element :selfemployed, :xpath, "//span[text()='Self-employed']//../parent::li"
 
 
     def select_employment(employment)
