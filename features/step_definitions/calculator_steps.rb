@@ -53,5 +53,4 @@ Then('the correct projected balance is displayed') do
     @calculator_page.calculator do |frame|
         expect(frame.projected_value.text).to match(data_for_row_one_of_table['projected'])
     end
-
 end
