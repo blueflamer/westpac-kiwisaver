@@ -103,4 +103,12 @@ Type the following to run **_Test User Story 2_**
 \
 Report
 ======
-Reports [story1.html, story2.html including any screenshots] will appear in the root of **_westpac-kiwisaver_** folder.
+Reports [_story1.html_, _story2.html_ including any screenshots] will appear in the root of **_westpac-kiwisaver_** folder.
+
+\
+Type the following to run scenarios(tests) that are tagged **@smoke**
+```console
+    cucumber features --tags @smoke -f pretty -f html -o report.html
+```
+
+

@@ -14,7 +14,7 @@ Scenario: Employed User
     And I click on "View your KiwiSaver retirement projections"
     Then the correct projected balance is displayed
 
-
+@smoke
 Scenario: Self Employed User
     Given a user of age and employment and salary who makes contribution and chooses risk profile
         |   age |   employment      |   current |   voluntary   |   frequency   |   profile         |   projected   |
